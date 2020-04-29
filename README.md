@@ -30,4 +30,20 @@ O projeto foi feito com as seguintes tecnologias:
 - [Styled-Components](https://styled-components.com/)
 {...}
 
+### ℹ️ Como usar
+
+```zsh
+# Clone this repository
+$ git clone https://github.com/LeonardoBrizolla/GoBarber
+
+# Go into the repository
+$ cd GoBarber
+
+# Install dependencies
+$ yarn
+
+# Run the app
+$ yarn start
+```
+
 <p align="center" style="margin-top: 20px; border-top: 1px solid #eee; padding-top: 20px;">Feito com ❤️ by <strong> Leonardo Brizolla </p>
