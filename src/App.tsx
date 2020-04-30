@@ -4,14 +4,18 @@ import SingIn from './pages/SingIn';
 // import SingUp from './pages/SingUp';
 import GlobalStyle from './styles/global';
 
+import ToastContainer from './components/ToastContainer';
 import { AuthProvider } from './hooks/AuthContext';
 
 const App: React.FC = () => (
   <>
     <AuthProvider>
       <SingIn />
-      <GlobalStyle />
     </AuthProvider>
+
+    <ToastContainer />
+
+    <GlobalStyle />
   </>
 );
 
